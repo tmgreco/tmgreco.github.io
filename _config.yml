@@ -3,7 +3,7 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 # Basic Site Settings
@@ -25,12 +25,12 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Timothy Greco"
-  pronouns         : # example: "she/her"  
+  pronouns         : # example: "she/her"
   bio              : "PhD Candidate researching agile legged locomotion."
   location         : "Philadelphia, PA"
   employer         : "University of Pennsylvania"
   uri              : # URL
-  email            : "tmgreco (at) seas (dot) upenn" 
+  email            : "tmgreco (at) seas (dot) upenn"
 
   # Academic websites
   academia         : # URL
@@ -52,8 +52,8 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "tmgreco"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
   artstation       : # Username
@@ -85,9 +85,11 @@ author:
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
+  presentations:
+    title: 'Conference Talks'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
