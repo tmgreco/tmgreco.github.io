@@ -15,7 +15,7 @@ Education
 * M.S. in Robotics, Unicersity of Pennsylvania, 2025
 * B.S. in Engineering, Swarthmore College, 2019
 
-Work experience
+Research experience
 ======
 * Fall 2019 - Present: Graduate Researcher
   * University of Pennsylvania, GRASP Laboratory.
