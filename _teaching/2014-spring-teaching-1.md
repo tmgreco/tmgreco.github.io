@@ -8,13 +8,15 @@ date: 2024-09-01
 location: "Swarthmore, PA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+<!-- Delivered lectures and labs co -->
 
-Heading 1
+<!-- Lectures
 ======
+The content of the course included kinematics, dynamics, perception, motion planning, and control.
 
-Heading 2
+Lab
 ======
+Students completed several projects, focusing on performing locomotion, navigation, and control tasks with Turtlebot robots.  
 
-Heading 3
-======
+Mentorship
+====== -->
