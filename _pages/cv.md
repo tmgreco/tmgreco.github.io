@@ -11,54 +11,72 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Electrical and Systems Engineering, University of Pennsylvania, 2026 (expected)
+* M.S. in Robotics, Unicersity of Pennsylvania, 2025
+* B.S. in Engineering, Swarthmore College, 2019
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Fall 2019 - Present: Graduate Researcher
+  * University of Pennsylvania, GRASP Laboratory.
+  * Implemented several agile locomotion skills, defined by parallel and sequential compositions of sagittal-plane dynamical models, in C++ on a Ghost Robotics Spirit quadruped.
+  * Developed and implemented a nonlinear controller to stabilize the robot’s orientation during these behaviors.
+  * Formally proved that this controller is asymptotically stable for a broad class of sagittal-plane behaviors.
+  * Developed and implemented a bounding gait for uneven terrain using 3D dynamical models, illustrating that these models capture important aspects of robust locomotion.
+  * Developed and implemented compositions of 3D dynamical models for leaping behaviors, highlighting the utility of these models for describing and executing contact-rich maneuvers.
+  * Developed custom interfaces for teleoperation and logging.
+  * Supervisor: Professor Daniel E. Koditschek.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2018: Undergraduate Research Fellow
+  * Johns Hopkins University.
+  * Used OpenCV and ArUco tags to estimate the pose of a mobile robot in real time for feedback control.
+  * Designed a LabVIEW application to automate experiments by synchronizing control and data acquisition.
+  * Supervisor: Professor Chen Li.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* Summers 2015 - 2017: Student Intern
+  * Draper Laboratory, Cambridge MA.
+  * Developed utilities in MATLAB and LabVIEW for data collection and processing.
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages:
+  * C++
+  * Python
+  * MATLAB
+  * Mathematica
+  * C
+* Robotics Tools:
+  * ROS/ROS2
+  * Gazebo
+  * Drake
+* Controls:
+  * Legged Locomotion
+  * Dynamical Systems Theory
+  * Nonlinear Controls
+  * Convex Optimization
+  * Model-Predictive Control
+  * Trajectory Optimization
+  * Whole-Body Control
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
+  {% endfor %}</ul> -->
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+<!-- Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Volunteer Foster for the Penn Vet Working Dog Center
+* Member of Tau Beta Pi and Phi Beta Kappa -->
