@@ -23,7 +23,7 @@ repository               : "tmgreco/tmgreco.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "headshot_cropped.jpg"
   name             : "Timothy Greco"
   pronouns         : # example: "she/her"
   bio              : "PhD Candidate researching agile legged locomotion."
