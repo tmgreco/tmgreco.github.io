@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Dynamical Systems Theory (TA)"
 collection: teaching
-type: "Graduate Course"
+type: "Graduate course"
 permalink: /teaching/2020-fall-teaching
 venue: "University of Pennsylvania, Department of Electrical and Systems Engineering"
 date: 2020-09-01
