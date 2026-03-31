@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Dynamical Systems Theory (TA)"
+title: "Dynamical Systems for Engineering and Biological Applications (TA)"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/2020-fall-teaching
@@ -8,7 +8,7 @@ date: 2020-09-01
 location: "Philadelphia, PA"
 ---
 
-This course covered topics in dynamical systems theory, including stability, Lyapunov analysis, chaotic systems, nonlinear systems, and bifurcations.  I met with students individually to help solidify their understanding of these topics, and wrote detailed solution guides for the problem sets.
+This midlevel course in nonlinear dynamics focuses on the analysis of low dimensional, continuous time models for describing and understanding complex behavior in physical, biological and engineered systems. Topics covered included flows, orbits, invariance, linearization, change of coordinates, stability, and bifurcation theory.  As a TA, my primary responsibilities were to write detailed solution guides for problem sets and to hold weekly office hours.
 
 <!-- Heading 1
 ======
