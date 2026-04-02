@@ -53,6 +53,7 @@ Skills
   * ROS/ROS2
   * Gazebo
   * Drake
+  * IsaacGym
 * Controls:
   * Legged Locomotion
   * Dynamical Systems Theory
@@ -61,6 +62,7 @@ Skills
   * Model-Predictive Control
   * Trajectory Optimization
   * Whole-Body Control
+  * Reinforcement Learning
 
 Publications
 ======
