@@ -2,7 +2,7 @@
 title: "Introduction to Legged Locomotion (TA)"
 collection: teaching
 type: "Graduate course"
-permalink: /teaching/2015-spring-teaching-1
+permalink: /teaching/2021-spring-teaching
 venue: "University of Pennsylvania, Department of Electrical and Systems Engineering"
 date: 2021-01-01
 location: "Philadelphia, PA"

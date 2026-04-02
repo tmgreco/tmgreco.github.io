@@ -2,7 +2,7 @@
 title: "Mobile Robotics"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
+permalink: /teaching/2024-fall-teaching
 venue: "Swarthmore College, Department of Engineering"
 date: 2024-09-01
 location: "Swarthmore, PA"
