@@ -20,10 +20,12 @@ Controller Design
 ======
 Let $$R$$ be the orientation of the robot in $$SO(3)$$ represented by the rotation matrix that maps from the body frame to the world frame.  Focusing on the case in which the robot has two laterally-paired legs in contact with the ground (e.g. either both hind legs or both front legs), we introduce a controller that aims to align the robot's hips with its toes.  Assuming that the $$y$$-axis of the body frame corresponds to the vector pointing from the right hip to the left hip (within the leg pair) and establishing our world frame so that the world-frame $$y$$-axis points from the right toe to the left toe, the desired set of orientations can be defined as
 
-$$ \mathcal{P} = \{ R \ |\ Ry = y\} $$
-- Define $$P$$
-- Introduce $$\Phi$$
-- Describe controller
+<p align="center">$$ \mathcal{P} = \{ R \ |\ Ry = y\} $$</p>
+
+
+where $$y = [0, 1, 0]^T$$ is a constant vector in $$\mathbb{R}^3$$.
+
+Using $$\Phi = 1 - y^T R y$$ as a virtual potential function, we design a potential-dissipative controller to stabilize $$\mathcal{P} \subset SO(3)$$.  Note that $$\Phi(R) = 0$$ if and only if $$R \in \mathcal{P}$$.
 
 Formal Results
 ======
