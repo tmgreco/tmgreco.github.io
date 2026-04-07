@@ -1,5 +1,5 @@
 ---
-title: "Anchoring sagittal plane templates in a spatial quadruped"
+title: "Anchoring Sagittal Plane Templates in a Spatial Quadruped"
 collection: publications
 category: conferences
 permalink: /publication/2023-05-29-Anchoring-Sagittal-Plane-Templates
@@ -11,9 +11,16 @@ citation: 'T. Greco and D. E. Koditschek, "Anchoring Sagittal Plane Templates in
 ---
 Background
 ======
+Testing unordered list
+- Introduce templates and anchors
+- Historically, templates are often planar; anchoring must handle out-of-plane disturbances.
+- Moving from planar robots (e.g. Minitaur) to "spatial" robots (e.g. Mini Cheetah, Spirit, Unitree, AnyMAL, Spot) requires more careful anchoring that uses out-of-plane degrees of freedom to actively stabilize templates.
 
 Controller Design
 ======
+- Define $$P$$
+- Introduce $$\Phi$$
+- Describe controller
 
 Formal Results
 ======
@@ -36,6 +43,6 @@ Disturbance Rejection
 
 Future Work
 ======
-Further analytical work (link to Hopf paper) aims to provide a more general stability proof that will
+Further analytical work (link to Hopf paper) will strengthen the analytical results by providing explicit basins of attraction and relaxing restrictions on template dynamics to encompass the templates used in these experiments.  Future empirical work will move towards 3D templates and
 
 <!-- slidesurl: 'https://academicpages.github.io/files/slides1.pdf' -->
