@@ -15,10 +15,7 @@ This paper introduces a new controller that stabilizes the motion of a spatial q
 
 Background
 ======
-Testing unordered list
-- Introduce templates and anchors
-- Historically, templates are often planar; anchoring must handle out-of-plane disturbances.
-- Moving from planar robots (e.g. Minitaur) to "spatial" robots (e.g. Mini Cheetah, Spirit, Unitree, AnyMAL, Spot) requires more careful anchoring that uses out-of-plane degrees of freedom to actively stabilize templates.
+Separating the dynamics of a complex motion into a low-dimensional template (which describes the bulk motion) and a high-dimensional anchoring (which makes the low-dimensional template manifold attracting and invariant within the configuration space) has proved to be an effective method of describing animal locomotion and generating behaviors for robots.  Controllers constructed by the composition of planar templates have yielded agile and robust sagittal-plane behaviors, including steady-state gaits [De and Koditschek, 2018] and leaping behaviors that enable complex interactions with objects in the environment [Pedipulation, Door-Opening].  However, their implementation on quadrupeds has largely been restricted to lower-DOF robots (e.g. Minitaur) whose dynamics closely match these planar models.  Executing these behaviors on quadrupeds with 12 actuated degrees of freedom requires the use of out-of-plane DOFs to stabilize the template submanifold without disturbing the dynamics within that manifold.  To this end, we introduce a novel anchoring controller to make the sagittal plane an attracting and invariant submanifold within $$SE(3)$$.
 
 Controller Design
 ======
@@ -33,7 +30,9 @@ Using $$\Phi = 1 - y^T R y$$ as a virtual potential function, we design a potent
 
 The potential-dissipative function takes the form
 <p align="center"> $$\tau = -\nabla Phi(R) - K_D \omega $$ </p>
-where $$\nabla Phi(R) = y \times Ry$$ is the gradient of $$\Phi$$ and $$K_D = \mathbf{diag}([k_1, 0, k_2])$$ is a positive semidefinite damping matrix
+where $$\nabla Phi(R) = y \times Ry$$ is the gradient of $$\Phi$$ and $$K_D = \mathbf{diag}([k_1, 0, k_2])$$ is a positive semidefinite damping matrix.
+
+While this controller stabilizes the orientation of the robot's body, a simple PD controller keeps the body centered over the toes.
 
 
 Formal Results
