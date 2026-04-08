@@ -98,7 +98,19 @@ Disturbance Rejection
 We tested the disturbance rejection capabilities of the anchoring controller when composed with the bounding and pronking gaits by subjecting the robot to unexpected pulls.  It withstood these perturbations well, recovering from over 80% of disturbances while continuing to execute the gait.  The following videos (coming soon!) show some representative trials; more can be found in the supplemental video accompanying the paper (link coming soon, available on the Kodlab youtube channel).  More details about the disturbance rejection results, including statistics about the disturbances and their respective recovery rates, can be found in the paper.
 <!-- that caused out-of-plane velocities up to twice the peak velocity observed during undisturbed execution of the gait.  Of all the failures recorded, only one resulted in the robot failing to keep its balance; most were destabilizations of the gait itself (e.g. failing to continue to stay in place, or failing to ) -->
 
+<figure style="text-align: center;">
+  <img src="/images/gait_disturbed.gif" alt="Gait Disturbance Rejection Demo" style="display: block; margin: 0 auto; width: 640px;">
+  <figcaption style="margin-top: 12px;"> Sample perturbations to the pronking (left) and bounding (right) gaits.  The top row displays perturbations primarily in the yaw direction, and the bottom row displays perturbations in the lateral direction.</figcaption>
+
+</figure>
+
 Examining the anchoring's ability to reject disturbances during the transitional behaviors proved more difficult.  The short timescale of the behaviors made it impractical to perturb the robot's velocity during the behavior and expect it to have enough time to recover before coming to rest.  Instead, we started the behavior with some offset in the yaw position and measured the robot's ability to complete the behavior anyway.  (More details and videos coming soon).
+
+<figure style="text-align: center;">
+  <img src="/images/boxj_disturbed.gif" alt="Boxjump Disturbance Rejection Demo" style="display: block; margin: 0 auto; width: 640px;">
+  <figcaption style="margin-top: 12px;"> The box-jump behavior displaying recovery from an initial yaw offset. </figcaption>
+
+</figure>
 
 Future Work
 ======
