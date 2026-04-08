@@ -47,6 +47,7 @@ Formal Results
 Exploiting the structure of this potential-dissipative controller yields two formal stability results:
 1. If no torque is exerted by the template dynamics, total energy on $$SO(3)$$ acts as a LaSalle function, and $$\mathcal{P}$$ is an asymptotically stable equilibrium.
 2. If the template stabilizes the pitch to a fixed point within the template manifold $$P$$, the anchoring makes that point in $$P$$ locally stable in $$SO(3)$$.
+
 Details about these proofs can be found in the paper and the accompanying technical report (links coming soon).
 
 Empirical Results
@@ -56,7 +57,7 @@ behavior objects govern the sequential or parallel composition of template objec
 
 Steady State Gaits
 ------
-The anchoring controller enabled Spirit to replicate the feedback-stabilized pronk and preflexively-stable bound originally developed for Minitaur (link to Minitaur paper coming soon).  For both gaits, the orientation controller keeps roll and yaw close to zero while preserving the underlying behavior of the coupled slot-hopper templates: when only mechanical coupling is present, the front and rear hop out of phase with each other (bounding), although adding feedback between the front and rear can force them to hop in phase with each other (pronking).
+The anchoring controller enabled Spirit to replicate the feedback-stabilized pronk and preflexively-stable bound originally developed for Minitaur in [De and Koditschek, 2018](https://journals.sagepub.com/doi/10.1177/0278364918779874).  For both gaits, the orientation controller keeps roll and yaw close to zero while preserving the underlying behavior of the coupled slot-hopper templates: when only mechanical coupling is present, the front and rear hop out of phase with each other (bounding), although adding feedback between the front and rear can force them to hop in phase with each other (pronking).
 
 <!-- Trying to use a table for this -->
 <!-- <table>
@@ -78,24 +79,24 @@ The anchoring controller enabled Spirit to replicate the feedback-stabilized pro
     <img src="/images/bound.gif" alt="GIF 1" style="width: 48%;">
     <img src="/images/pronk.gif" alt="GIF 2" style="width: 48%;">
   </div>
-  <figcaption style="margin-top: 12px;"> Spirit performs the bounding (left) and pronking (right) gaits from De and Koditschek, 2018.</figcaption>
+  <figcaption style="margin-top: 12px;"> Spirit performs the bounding (left) and pronking (right) gaits from [De and Koditschek, 2018](https://journals.sagepub.com/doi/10.1177/0278364918779874).</figcaption>
 
 </figure>
 
 
 Transitional Behaviors
 ------
-The anchoring controller also demonstrated the ability to stabilize the mount, dismount, and box-jump originally developed for Minitaur (link to Minitaur paper coming soon).  Spirit successfully performed each behavior repeatedly five times out of five attempts, meeting the same measure of repeatability exhibited by Minitaur.  Despite these behaviors’ short stance phases and high-velocity flight phases, the anchoring reliably stabilized the out-of-plane motion of the robot.
+The anchoring controller also demonstrated the ability to stabilize the mount, dismount, and box-jump originally developed for Minitaur in [Topping et al, 2022](https://link.springer.com/chapter/10.1007/978-3-030-95459-8_38).  Spirit successfully performed each behavior repeatedly five times out of five attempts, meeting the same measure of repeatability exhibited by Minitaur.  Despite these behaviors’ short stance phases and high-velocity flight phases, the anchoring reliably stabilized the out-of-plane motion of the robot.
 
 <figure style="text-align: center;">
   <img src="/images/boxjump.gif" alt="Spirit Performing Boxjump Maneuver" style="display: block; margin: 0 auto; width: 640px;">
-  <figcaption style="margin-top: 12px;"> Spirit performs the box-jump maneuver from [transitional pedipulation paper].</figcaption>
+  <figcaption style="margin-top: 12px;"> Spirit performs the box-jump maneuver from [Topping et al, 2022](https://link.springer.com/chapter/10.1007/978-3-030-95459-8_38).</figcaption>
 
 </figure>
 
 Disturbance Rejection
 -------
-We tested the disturbance rejection capabilities of the anchoring controller when composed with the bounding and pronking gaits by subjecting the robot to unexpected pulls.  It withstood these perturbations well, recovering from over 80% of disturbances while continuing to execute the gait.  The following videos (coming soon!) show some representative trials; more can be found in the supplemental video accompanying the paper (link coming soon, available on the Kodlab youtube channel).  More details about the disturbance rejection results, including statistics about the disturbances and their respective recovery rates, can be found in the paper.
+We tested the disturbance rejection capabilities of the anchoring controller when composed with the bounding and pronking gaits by subjecting the robot to unexpected pulls.  It withstood these perturbations well, recovering from over 80% of disturbances while continuing to execute the gait.  The following videos show some representative trials; more can be found in the [supplemental video](https://www.youtube.com/watch?v=SejLt0Hx2uQ) accompanying the paper.  More details about the disturbance rejection results, including statistics about the disturbances and their respective recovery rates, can be found in Section III of the paper.
 <!-- that caused out-of-plane velocities up to twice the peak velocity observed during undisturbed execution of the gait.  Of all the failures recorded, only one resulted in the robot failing to keep its balance; most were destabilizations of the gait itself (e.g. failing to continue to stay in place, or failing to ) -->
 
 <figure style="text-align: center;">
