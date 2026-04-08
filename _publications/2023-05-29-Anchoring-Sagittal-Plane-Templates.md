@@ -13,7 +13,11 @@ Abstract
 ======
 This paper introduces a new controller that stabilizes the motion of a spatial quadruped around sagittal-plane templates.  It enables highly dynamic gaits and transitional maneuvers formed from parallel and sequential compositions of such planar templates in settings that require significant out-of-plane reactivity. The controller admits formal guarantees of stability with some modest assumptions. Experimental results validate the reliable execution of those planar template-based maneuvers, even in the face of large lateral, yaw, and roll incurring disturbances.  This spatial anchor, fixed in parallel composition with a variety of different parallel and sequential compositions of sagittal plane templates, illustrates the robust portability of provably interoperable modular control components across a variety of hardware platforms and behaviors.
 
-![Disturbance Recovery while Bounding](/images/perturbation_bound_dramatic.gif)
+<!-- ![Disturbance Recovery while Bounding](/images/perturbation_bound_dramatic.gif) -->
+<figure style="text-align: center;">
+  <img src="/images/perturbation_bound_dramatic.gif" alt="Disturbance Recovery while Bounding" style="display: block; margin: 0 auto; width: 640px;">
+  <figcaption>Spirit's spatial anchoring controller recovers from a strong rolling disturbance. The resulting perturbation is incurred while engaged in the energetic sagittal plane pitching required by the bounding gait.  Despite the high adversarial velocity in roll, the anchoring controller enables the robot to regain its balance and resume stable bounding.</figcaption>
+</figure>
 
 Background
 ======
