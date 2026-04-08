@@ -76,6 +76,12 @@ Transitional Behaviors
 ------
 The anchoring controller also demonstrated the ability to stabilize the mount, dismount, and box-jump originally developed for Minitaur (link to Minitaur paper coming soon).  Spirit successfully performed each behavior repeatedly five times out of five attempts, meeting the same measure of repeatability exhibited by Minitaur.  Despite these behaviors’ short stance phases and high-velocity flight phases, the anchoring reliably stabilized the out-of-plane motion of the robot.
 
+<figure style="text-align: center;">
+  <img src="/images/boxjump.gif" alt="Spirit Performing Boxjump Maneuver" style="display: block; margin: 0 auto; width: 640px;">
+  <figcaption style="margin-top: 12px;"> Spirit performs the box-jump maneuver from [transitional pedipulation paper].</figcaption>
+
+</figure>
+
 Disturbance Rejection
 -------
 We tested the disturbance rejection capabilities of the anchoring controller when composed with the bounding and pronking gaits by subjecting the robot to unexpected pulls.  It withstood these perturbations well, recovering from over 80% of disturbances while continuing to execute the gait.  The following videos (coming soon!) show some representative trials; more can be found in the supplemental video accompanying the paper (link coming soon, available on the Kodlab youtube channel).  More details about the disturbance rejection results, including statistics about the disturbances and their respective recovery rates, can be found in the paper.
