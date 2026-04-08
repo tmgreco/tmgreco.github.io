@@ -17,7 +17,7 @@ This paper introduces a new controller that stabilizes the motion of a spatial q
 <figure style="text-align: center;">
   <img src="/images/perturbation_bound_dramatic.gif" alt="Disturbance Recovery while Bounding" style="display: block; margin: 0 auto; width: 640px;">
   <figcaption style="margin-top: 12px;"> Spirit's spatial anchoring controller recovers from a strong rolling disturbance. The resulting perturbation is incurred while engaged in the energetic sagittal plane pitching required by the bounding gait.  Despite the high adversarial velocity in roll, the anchoring controller enables the robot to regain its balance and resume stable bounding.</figcaption>
-  
+
 </figure>
 
 Background
@@ -36,8 +36,8 @@ where $$y = [0, 1, 0]^T$$ is a constant vector in $$\mathbb{R}^3$$.
 Using $$\Phi = 1 - y^T R y$$ as a virtual potential function, we design a potential-dissipative controller to stabilize $$\mathcal{P} \subset SO(3)$$.  Note that $$\Phi(R) = 0$$ if and only if $$R \in \mathcal{P}$$.  As detailed in the paper, $$\Phi$$ is a Morse-Bott function on $$SO(3)$$.
 
 The potential-dissipative function takes the form
-<p align="center"> $$\tau = -\nabla Phi(R) - K_D \omega $$ </p>
-where $$\nabla Phi(R) = y \times Ry$$ is the gradient of $$\Phi$$ and $$K_D = \mathbf{diag}([k_1, 0, k_2])$$ is a positive semidefinite damping matrix.
+<p align="center"> $$\tau = -\nabla \Phi(R) - K_D \omega $$ </p>
+where $$\nabla \Phi(R) = y \times Ry$$ is the gradient of $$\Phi$$ and $$K_D = \mathbf{diag}([k_1, 0, k_2])$$ is a positive semidefinite damping matrix.
 
 While this controller stabilizes the orientation of the robot's body, a simple PD controller keeps the body centered over the toes.
 
