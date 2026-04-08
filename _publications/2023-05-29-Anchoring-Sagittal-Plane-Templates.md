@@ -59,7 +59,7 @@ Steady State Gaits
 The anchoring controller enabled Spirit to replicate the feedback-stabilized pronk and preflexively-stable bound originally developed for Minitaur (link to Minitaur paper coming soon).  For both gaits, the orientation controller keeps roll and yaw close to zero while preserving the underlying behavior of the coupled slot-hopper templates: when only mechanical coupling is present, the front and rear hop out of phase with each other (bounding), although adding feedback between the front and rear can force them to hop in phase with each other (pronking).
 
 <!-- Trying to use a table for this -->
-<table>
+<!-- <table>
   <tr>
     <td align="center">
       <img src="/images/bound.gif" alt="GIF 1" width="480"><br>
@@ -70,7 +70,14 @@ The anchoring controller enabled Spirit to replicate the feedback-stabilized pro
       Pronking
     </td>
   </tr>
-</table>
+</table> -->
+
+<!-- Don't like the box around the table.  Trying flex container instead. -->
+
+<div style="display: flex; justify-content: center; gap: 16px;">
+  <img src="/images/bound.gif" alt="GIF 1" style="width: 48%;">
+  <img src="/images/bound.gif" alt="GIF 2" style="width: 48%;">
+</div>
 
 Transitional Behaviors
 ------
