@@ -16,7 +16,8 @@ This paper introduces a new controller that stabilizes the motion of a spatial q
 <!-- ![Disturbance Recovery while Bounding](/images/perturbation_bound_dramatic.gif) -->
 <figure style="text-align: center;">
   <img src="/images/perturbation_bound_dramatic.gif" alt="Disturbance Recovery while Bounding" style="display: block; margin: 0 auto; width: 640px;">
-  <figcaption>Spirit's spatial anchoring controller recovers from a strong rolling disturbance. The resulting perturbation is incurred while engaged in the energetic sagittal plane pitching required by the bounding gait.  Despite the high adversarial velocity in roll, the anchoring controller enables the robot to regain its balance and resume stable bounding.</figcaption>
+  <figcaption style="margin-top: 12px;"> Spirit's spatial anchoring controller recovers from a strong rolling disturbance. The resulting perturbation is incurred while engaged in the energetic sagittal plane pitching required by the bounding gait.  Despite the high adversarial velocity in roll, the anchoring controller enables the robot to regain its balance and resume stable bounding.</figcaption>
+  
 </figure>
 
 Background
