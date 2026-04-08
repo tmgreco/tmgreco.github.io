@@ -73,11 +73,15 @@ The anchoring controller enabled Spirit to replicate the feedback-stabilized pro
 </table> -->
 
 <!-- Don't like the box around the table.  Trying flex container instead. -->
+<figure style="text-align: center;">
+  <div style="display: flex; justify-content: center; gap: 16px;">
+    <img src="/images/bound.gif" alt="GIF 1" style="width: 48%;">
+    <img src="/images/pronk.gif" alt="GIF 2" style="width: 48%;">
+  </div>
+  <figcaption style="margin-top: 12px;"> Spirit performs the bounding (left) and pronking (right) gaits from De and Koditschek, 2018.</figcaption>
 
-<div style="display: flex; justify-content: center; gap: 16px;">
-  <img src="/images/bound.gif" alt="GIF 1" style="width: 48%;">
-  <img src="/images/bound.gif" alt="GIF 2" style="width: 48%;">
-</div>
+</figure>
+
 
 Transitional Behaviors
 ------
