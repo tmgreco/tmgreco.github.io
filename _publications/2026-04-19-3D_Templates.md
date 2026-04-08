@@ -3,7 +3,7 @@ title: "3D Templates for Agile Quadrupedal Locomotion"
 collection: publications
 category: conferences
 permalink: /publication/2026-04-19-3D_Templates
-exceprt: 'In preparation -- check back soon for an abstract.'
+excerpt: 'In progress -- check back soon for an abstract.'
 date: 2026-04-19
 venue: 'In Preparation'
 
