@@ -78,7 +78,7 @@ The anchoring controller enabled Spirit to replicate the feedback-stabilized pro
     <img src="/images/bound.gif" alt="GIF 1" style="width: 48%;">
     <img src="/images/pronk.gif" alt="GIF 2" style="width: 48%;">
   </div>
-  <figcaption style="margin-top: 12px;"> Spirit performs the bounding (left) and pronking (right) gaits from [De and Koditschek, 2018](https://journals.sagepub.com/doi/10.1177/0278364918779874).</figcaption>
+  <figcaption style="margin-top: 12px;"> Spirit performs the bounding (left) and pronking (right) gaits from <a href="https://journals.sagepub.com/doi/10.1177/0278364918779874">De and Koditschek, 2018</a>.</figcaption>
 
 </figure>
 
@@ -89,7 +89,7 @@ The anchoring controller also demonstrated the ability to stabilize the mount, d
 
 <figure style="text-align: center;">
   <img src="/images/boxjump.gif" alt="Spirit Performing Boxjump Maneuver" style="display: block; margin: 0 auto; width: 640px;">
-  <figcaption style="margin-top: 12px;"> Spirit performs the box-jump maneuver from [Topping et al, 2022](https://link.springer.com/chapter/10.1007/978-3-030-95459-8_38).</figcaption>
+  <figcaption style="margin-top: 12px;"> Spirit performs the box-jump maneuver from  <a href="https://link.springer.com/chapter/10.1007/978-3-030-95459-8_38">Topping et al, 2022</a>.</figcaption>
 
 </figure>
 
