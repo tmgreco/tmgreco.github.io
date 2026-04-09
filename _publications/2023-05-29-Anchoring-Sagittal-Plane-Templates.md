@@ -114,6 +114,6 @@ Examining the anchoring's ability to reject disturbances during the transitional
 
 Future Work
 ======
-Further analytical work (link to Hopf paper) will strengthen the analytical results by providing explicit basins of attraction and relaxing restrictions on template dynamics to encompass the templates used in these experiments.  Future empirical work will move towards 3D template models to perform more diverse and agile locomotion tasks.
+[Further analytical work](lhttps://tmgreco.github.io/publication/2026-04-19-Hopf) will strengthen the analytical results by providing explicit basins of attraction and relaxing restrictions on template dynamics to encompass the templates used in these experiments.  [Future empirical work](https://tmgreco.github.io/publication/2025-07-13-3D_Bound) will move towards 3D template models to perform more diverse and agile locomotion tasks.
 
 <!-- slidesurl: 'https://academicpages.github.io/files/slides1.pdf' -->
